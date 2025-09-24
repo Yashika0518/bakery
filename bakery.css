@@ -1,0 +1,29 @@
+.container {
+    text-align: center;
+    background: linear-gradient(135deg, #ffc0cb, #dda0dd);
+    min-height: 100vh;
+    padding: 20px;
+  }
+  .products {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+  }
+  .product-card {
+    background: white;
+    padding: 15px;
+    border-radius: 10px;
+    transition: transform 0.3s;
+  }
+  .product-card:hover {
+    transform: scale(1.1);
+  }
+  img {
+    width: 100px;
+    height: 100px;
+    border-radius: 10px;
+  }
+  footer {
+    margin-top: 20px;
+  }
+  
